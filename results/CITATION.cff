@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "EMG-based trial annotation for motor-execution compliance"
+abstract: >-
+  MATLAB pipeline that labels cued motor-execution trials as compliant or as
+  one of five deviation types (MISS, WRONG, TERM, BOTH, COMP) from two
+  surface-EMG channels and the cue triggers, without manual annotation.
+authors:
+  - family-names: Gwon
+    given-names: Daeun
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    # affiliation: ""
+  # add co-authors here, same format
+version: 1.0.0
+date-released: 2026-10-06        # set to the actual release date
+license: MIT
+# repository-code: "https://github.com/<user>/<repo>"
+keywords:
+  - electromyography
+  - motor execution
+  - brain-computer interface
+  - trial annotation
+  - compliance
+
+# Uncomment once the paper is out; GitHub's "Cite this repository" will then
+# show the article instead of the software entry.
+# preferred-citation:
+#   type: article
+#   title: ""
+#   authors:
+#     - family-names: Gwon
+#       given-names: Daeun
+#   journal: ""
+#   year: 2026
+#   doi: ""
