@@ -42,7 +42,7 @@ cue-pre_win  cue              cue+exec_len+residual        next cue-pre_win
 
 ## Requirements
 
-- MATLAB <!-- TODO: minimum version actually tested -->
+- MATLAB R2025b
 - EEGLAB 2022.1 with the BIOSIG plugin (`pop_biosig`) and firfilt (`pop_eegfiltnew`)
 - Signal Processing Toolbox (`pop_resample`)
 - Statistics and Machine Learning Toolbox (`prctile`, `fitrm`, `fitlme`, `fitglme`)
@@ -112,7 +112,7 @@ Per dataset:
 
 `thr_mult` is chosen with `HE_sweep_threshold`: the multiplier is swept from 1.5 to 6 and the
 plateau between "resting false positives reach zero" and "MISS starts rising" is taken.
-<!-- TODO: sweep figure + one sentence on why the two datasets differ -->
+
 
 ## Output
 
@@ -140,11 +140,6 @@ plateau between "resting false positives reach zero" and "MISS starts rising" is
 
 Exclusions and corrections applied in the paper:
 
-<!-- TODO: fill in once final -->
-| Subject | Dataset | Action | Evidence |
-|---------|---------|--------|----------|
-| | | excluded (no usable EMG) | |
-| | | L/R channels swapped | |
 
 ## Using it on another dataset
 
